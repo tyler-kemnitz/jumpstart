@@ -9,7 +9,31 @@ body {
 .navbar-default .navbar-nav > .active > a:hover {
     color: #399bd1;
 }
+.navbar-default .navbar-nav > li > a:hover{
+    cursor: pointer;
+}
 .navbar-default .navbar-nav > li {
     font-size: 1.5rem;
     font-weight: bold;
+}
+.jumbotron{
+    background-image: url("../images/jumbotron-bike.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 44rem;
+    color: white;
+}
+.jumbotron .container-fluid{
+    padding: 11.85rem 0;
+}
+.jumbotron h1{
+    font-family: "Monoton";
+    font-size: 7.1rem;
+    text-shadow: #000 -1px -1px 0;
+}
+.jumbotron p{
+    max-width: 51.3rem;
 }
