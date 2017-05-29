@@ -16,6 +16,7 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
 }
+/*Jumbotron*/
 .jumbotron{
     background-image: url("../images/jumbotron-bike.jpg");
     background-size: cover;
@@ -36,4 +37,24 @@ body {
 }
 .jumbotron p{
     max-width: 51.3rem;
+}
+/*All Project Styling*/
+.image-container img{
+    width: 100%;
+    opacity: 0.7;
+}
+.row-header{
+    font-size: 2rem;
+    color: #399bd1;
+    font-weight: bold;
+}
+.categories{
+    line-height: 1.4;
+    color: rgba(0,0,0,0.7);
+}
+.projects{
+    padding-bottom: 5.85rem;
+}
+.projects h3{
+    font-weight: bold;
 }
